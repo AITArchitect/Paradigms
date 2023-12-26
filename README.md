@@ -14,9 +14,8 @@ It will focus on paradigms like:
 All rights are reserved for kemeriszaszgy@gmail.com
 
 The repository contains public and common informations.
-In case there wasn't explicitly shown than the information is from Internet
-no  intention of plagiarism only the citation was missed, 
-please don't harm the site because of it.
+In case there wasn't explicitly showni, then the information is from Internet.
+No intention of plagiarism. Only the citation was missed, please don't harm the site because of it.
 
 All rigths are reserved but the informations contained by this repository 
 are usable and available conform of the licences GPL.v3 DGPL.v3.
