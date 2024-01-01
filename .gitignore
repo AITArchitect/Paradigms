@@ -3,3 +3,10 @@
 ################################################################################
 
 /.vs
+/Neural Network/RubixNN/.vs/RubixNN/DesignTimeBuild
+/Neural Network/RubixNN/.vs/RubixNN/FileContentIndex
+/Neural Network/RubixNN/Clients/CliRunNeuralNetwork/obj
+/Neural Network/RubixNN/Server/SimpleNeuralNetwork/obj
+/Neural Network/RubixNN/Server/_Interfaces/obj
+/Neural Network/RubixNN/Server/_Interfaces/bin/Debug/net7.0
+/Neural Network/RubixNN/Tests/Clients/CliRunNeuralNetworkTest/obj

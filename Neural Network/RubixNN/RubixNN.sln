@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{1589D489-2D1C-4023-BA2F-589E16AEB58F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{83305420-19F6-4196-9F89-D1B5B152AAF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{F25F598C-AE18-4182-AD22-66A50D004256}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_Interfaces", "Server\_Interfaces\_Interfaces.csproj", "{CB20736C-0190-4BD6-96E6-7F664ED55745}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleNeuralNetwork", "Server\SimpleNeuralNetwork\SimpleNeuralNetwork.csproj", "{5AE11BD9-9CD0-4FA1-A6CE-49BB0A6C582A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{BB7A5649-1AFD-4D13-8683-5BBF286DE380}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{CA62A231-08E1-4E4B-B2A0-107F269DDBD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CliRunNeuralNetwork", "Clients\CliRunNeuralNetwork\CliRunNeuralNetwork.csproj", "{BC7CEE85-237B-4A9C-A046-AB6208B210D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CliRunNeuralNetworkTest", "Tests\Clients\CliRunNeuralNetworkTest\CliRunNeuralNetworkTest.csproj", "{1B083F9F-2766-417D-8BB9-C9E17552BD9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB20736C-0190-4BD6-96E6-7F664ED55745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB20736C-0190-4BD6-96E6-7F664ED55745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB20736C-0190-4BD6-96E6-7F664ED55745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB20736C-0190-4BD6-96E6-7F664ED55745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AE11BD9-9CD0-4FA1-A6CE-49BB0A6C582A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE11BD9-9CD0-4FA1-A6CE-49BB0A6C582A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE11BD9-9CD0-4FA1-A6CE-49BB0A6C582A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE11BD9-9CD0-4FA1-A6CE-49BB0A6C582A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC7CEE85-237B-4A9C-A046-AB6208B210D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC7CEE85-237B-4A9C-A046-AB6208B210D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC7CEE85-237B-4A9C-A046-AB6208B210D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC7CEE85-237B-4A9C-A046-AB6208B210D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B083F9F-2766-417D-8BB9-C9E17552BD9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B083F9F-2766-417D-8BB9-C9E17552BD9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B083F9F-2766-417D-8BB9-C9E17552BD9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B083F9F-2766-417D-8BB9-C9E17552BD9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CB20736C-0190-4BD6-96E6-7F664ED55745} = {1589D489-2D1C-4023-BA2F-589E16AEB58F}
+		{5AE11BD9-9CD0-4FA1-A6CE-49BB0A6C582A} = {1589D489-2D1C-4023-BA2F-589E16AEB58F}
+		{BB7A5649-1AFD-4D13-8683-5BBF286DE380} = {83305420-19F6-4196-9F89-D1B5B152AAF1}
+		{CA62A231-08E1-4E4B-B2A0-107F269DDBD6} = {83305420-19F6-4196-9F89-D1B5B152AAF1}
+		{BC7CEE85-237B-4A9C-A046-AB6208B210D0} = {F25F598C-AE18-4182-AD22-66A50D004256}
+		{1B083F9F-2766-417D-8BB9-C9E17552BD9F} = {BB7A5649-1AFD-4D13-8683-5BBF286DE380}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECD8DD25-D26F-41E3-89F0-1F037B3584CE}
+	EndGlobalSection
+EndGlobal
